@@ -1,0 +1,6 @@
+value_got = input('Please input your age: ')
+age = int(value_got )
+print(value_got)
+print(age)
+print(age > 10)
+# print(value_got > 10)
