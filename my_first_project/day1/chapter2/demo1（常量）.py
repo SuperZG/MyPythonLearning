@@ -5,29 +5,29 @@ print(type(1))
 # <class 'float'> 浮点数
 print(type(1.1))
 # <class 'complex'> 复数
-print(type((-5+4j)))
+print(type((-5 + 4j)))
 
 print(type(int(1.1)))
 print(int(1.9))
 # print(float(1))
-print("+"*40)
+print("+" * 40)
 # 字符串数据结构
 # <class 'str'>
 print(type("1.1"))
 print(type('1." e "1'))
 print(r"This is the first line and \n this is not the second line."
-)
+      )
 print(type(int("1")))
 print(type(float("1.1")))
 print(float("1.1"))
 
 # True False <class 'bool'> 布尔值
-print("这里是布尔",int(True))
+print("这里是布尔", int(True))
 print(int(False))
-print(1!=1)
+print(1 != 1)
 print(not True)
 print(False and True)
 print(False or True)
-print(3>1 or 1==2)
+print(3 > 1 or 1 == 2)
 
 # <class 'NoneType'>
